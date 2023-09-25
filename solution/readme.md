@@ -24,8 +24,6 @@ potenziometro per il voltaggio ?
 spec del sensore di luminosita ?
 
 170Mhz
-200ms = 0.2s
-prescaler = 1
 
 ### LDR
 
