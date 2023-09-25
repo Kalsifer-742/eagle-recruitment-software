@@ -62,7 +62,7 @@ void handle_danger_to_running_state_transition(void)
 void handle_undervoltage_led(void)
 {
   digitalWrite(overvoltage_led_pin, LOW);
-  Serial.println("leds_status: overvoltage_led is OFF");
+  //Serial.println("leds_status: overvoltage_led is OFF");
   digitalWrite(undervoltage_led_pin, HIGH);
   Serial.println("leds_status: undervoltage_led is ON");
   return;
@@ -71,7 +71,7 @@ void handle_undervoltage_led(void)
 void handle_overvoltage_led(void)
 {
   digitalWrite(undervoltage_led_pin, LOW);
-  Serial.println("leds_status: undervoltage_led is OFF");
+  //Serial.println("leds_status: undervoltage_led is OFF");
   digitalWrite(overvoltage_led_pin, HIGH);
   Serial.println("leds_status: overvoltage_led is ON");
   return;
@@ -138,10 +138,9 @@ void running_state(void)
   //timers running
 }
 
-//if I could create multiple states it would be easy to identify which LED is on
 void danger_state(void)
 {
-  
+  //nothing to do
 }
 
 void waiting_state(void)
@@ -185,7 +184,7 @@ void light_sensor_timer_interrupt_handler(void)
   //int lux = exp(-0.5852985121078413 * voltage + 5.546777762224811);
   int lux = 123.8957 + (65237400000 - 123.8957) / (1 + pow((voltage / 0.00003897886), 1.778511)); //more accurate in the higher range
   print_timestamp();
-  Serial.print(" brightness: ~ ");
+  Serial.print(" brightness: ~");
 
   /*int lux = 0;
   if (voltage > 4.30) {
@@ -243,9 +242,9 @@ void setup()
   pinMode(emergency_button, INPUT);
   attachInterrupt(digitalPinToInterrupt(emergency_button), button_interrupt_handler, HIGH);
 
-  light_sensor_check_timer->setOverflow(1000000, MICROSEC_FORMAT); //200000
+  light_sensor_check_timer->setOverflow(200000, MICROSEC_FORMAT); //200000
   light_sensor_check_timer->attachInterrupt(light_sensor_timer_interrupt_handler);
-  voltage_check_timer->setOverflow(1000000, MICROSEC_FORMAT); //350000
+  voltage_check_timer->setOverflow(350000, MICROSEC_FORMAT); //350000
   voltage_check_timer->attachInterrupt(voltage_timer_interrupt_handler);
   light_sensor_check_timer->resume();
   voltage_check_timer->resume();
