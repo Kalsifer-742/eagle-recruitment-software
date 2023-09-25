@@ -1,3 +1,13 @@
+# Solution
+
+Here you can find my solution.
+
+- [Solution](./solution/readme.md)
+
+down below you can also find the assignment.
+
+---
+
 # Recruiting software 2022/23
 
 Welcome to the recruiting repository of the software team at E-Agle Trento Racing Team.
@@ -36,7 +46,3 @@ Then send us the link of the repo so that we will be able to review it
 ## Feedback
 
 Feedback on the assignments is very welcome and encouraged. Feel free to ask questions or propose a change by writing us at fsae@eagletrt.it, messaging your recruiter on telegram, or by visiting us at Povo 2, Floor -2.
-
-# Solution
-
-- [Solution](./solution/readme.md)
