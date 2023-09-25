@@ -22,3 +22,8 @@ spec del sensore di luminosita ?
 170Mhz
 200ms = 0.2s
 prescaler = 1
+
+### LDR
+
+- https://www.allaboutcircuits.com/projects/design-a-luxmeter-using-a-light-dependent-resistor/
+- https://docs.google.com/spreadsheets/d/e/2PACX-1vTnh1X9CsZkK5S5eDIxaffOZ9EeqaGZKAWHTWqnwucb3Mn0FRA0lajspqk6cpvHASq8e8VKB7fXO3c9/pubhtml
