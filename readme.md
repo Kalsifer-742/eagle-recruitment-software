@@ -1,8 +1,6 @@
 # Solution
 
-Here you can find my solution.
-
-- [Solution](./solution/readme.md)
+[Here](./solution/readme.md) you can find my solution.
 
 Down below you can also find the assignment.
 
