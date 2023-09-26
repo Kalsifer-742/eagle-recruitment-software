@@ -4,7 +4,7 @@
 
 [![Watch the video](https://img.youtube.com/vi/LV-JbSkoToc/hqdefault.jpg)](https://www.youtube.com/embed/LV-JbSkoToc)
 
-## [Code](./src/main.ino)
+## [Code](./src/main/main.ino)
 
 ### Development environment
 
