@@ -19,6 +19,6 @@ It's not perfect by any means but it's better then nothing.
 ## Data and Code
 
 - [Here](https://docs.google.com/spreadsheets/d/e/2PACX-1vTnh1X9CsZkK5S5eDIxaffOZ9EeqaGZKAWHTWqnwucb3Mn0FRA0lajspqk6cpvHASq8e8VKB7fXO3c9/pubhtml) you can find the results.
-- [small program](ldr_reader.ino) to read the sensor
+- [small program](./ldr_reader.ino) to read the sensor
 - [small python script](./exp_curv_fitting.py) to do curve fitting
 - [curve fitting website](https://mycurvefit.com/index.html)

@@ -1,6 +1,8 @@
 # Solution
 
-[Here](./solution/readme.md) you can find my solution.
+- [Here](./solution/arduino_ide/readme.md) you can find my solution.
+
+- I was later asked to do a small portion of the project in pure `C` to assess my skill. [Here](./solution/stm32_cube_mx/readme.md) you can find it.
 
 Down below you can also find the assignment.
 
