@@ -56,7 +56,6 @@ void elapsed_tim2_callback(TIM_HandleTypeDef *htim)
   HAL_ADC_PollForConversion(&hadc1, 100); //100ms
   uint32_t adc_value = HAL_ADC_GetValue(&hadc1);
   HAL_ADC_Stop(&hadc1);
-  //HAL_ADC_Stop(&hadc1);
 
   //voltage to Lux conversion
   float voltage = adc_value * (5.0 / 4095.0);
