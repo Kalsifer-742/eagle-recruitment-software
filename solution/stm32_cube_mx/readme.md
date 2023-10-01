@@ -2,7 +2,7 @@
 
 ## Video
 
-[![Watch the video](https://img.youtube.com/vi/LV-CgwbZnTcp8Q/hqdefault.jpg)](https://www.youtube.com/embed/CgwbZnTcp8Q)
+[![Watch the video](https://img.youtube.com/vi/CgwbZnTcp8Q/hqdefault.jpg)](https://www.youtube.com/embed/CgwbZnTcp8Q)
 
 ## [CubeMX Project](./Solution/)
 ## [Code](./Solution/Core/Src/main.c)
